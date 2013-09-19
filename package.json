@@ -1,5 +1,26 @@
 {
-  "name": "test.c",
+  "name": "uppercase.c",
   "version": "0.0.0",
-  "main.c": "index.c"
+  "description": "uppercase a string in-place in c",
+  "main.c": "index.c",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/substack/uppercase.c.git"
+  },
+  "homepage": "https://github.com/substack/uppercase.c",
+  "keywords": [
+    "dotc",
+    "c",
+    "c++",
+    "preprocessor",
+    "compile",
+    "module",
+    "system"
+  ],
+  "author": {
+    "name": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net"
+  },
+  "license": "MIT"
 }

@@ -5,12 +5,8 @@
 
 char *upper (char *s) {
     size_t l = strlen(s);
-    char *r = (char *) malloc(l + 1);
     for (size_t i = 0; i < l; ++i) {
-        if (s[i] >= 'a' && s[i] <= 'z') {
-            r[i] = s[i] - 32;
-        }
-        else r[i] = s[i];
+        if (s[i] >= 'a' && s[i] <= 'z') s[i] -= 32;
     }
-    return r;
+    return s;
 }
